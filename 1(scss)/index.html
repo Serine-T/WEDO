@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Feedback Page</title>
+</head>
+<body>
+    <div class="form-container">
+        <h2 class="form-title">Feedback Form</h2>
+        <form id="feedback-form">
+            <label>
+                <span>Name</span>
+                <input type="text" name="name">
+            </label>
+            <label>
+                <span>Email</span>
+                <input type="email" name="email">
+            </label>
+            <label>
+                <span>Subject</span>
+                <input type="text" name="subject">
+            </label>
+            <label>
+                <span>Message</span>
+                <textarea name="message"></textarea>
+            </label>
+            <p id="response-message"></p>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>
